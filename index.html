@@ -59,7 +59,7 @@
             </div>
         </div>
             <!-- 2. GEE NDVI -->
-            <div class="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition">
+            <div class="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition flex flex-col">
                 <div class="flex justify-between items-start mb-4">
                     <h4 class="text-xl font-bold text-slate-800">Canvis Fenològics als Pirineus</h4>
                     <i class="fa-solid fa-satellite text-2xl text-blue-500"></i>
@@ -67,9 +67,16 @@
                 <p class="text-gray-600 mb-4 text-sm">
                     Anàlisi de sèries temporals mitjançant Google Earth Engine (GEE). Càlcul de l'índex NDVI per avaluar l'impacte del canvi climàtic en els patrons fenològics dels prats del Parc Nacional d'Aigüestortes.
                 </p>
-                <div class="flex flex-wrap gap-2 mt-auto">
+                <div class="flex flex-wrap gap-2 mb-6">
                     <span class="bg-blue-50 text-blue-600 px-2 py-1 rounded text-xs font-bold">Google Earth Engine</span>
                     <span class="bg-blue-50 text-blue-600 px-2 py-1 rounded text-xs font-bold">Remote Sensing</span>
+                </div>
+                
+                <!-- NOU: BOTÓ PER AL PDF -->
+                <div class="mt-auto border-t border-gray-100 pt-4">
+                    <a href="Canvis_fenologics_NVDI.pdf" target="_blank" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm font-bold transition">
+                        <i class="fa-solid fa-file-pdf"></i> Llegir Estudi (PDF)
+                    </a>
                 </div>
             </div>
 
